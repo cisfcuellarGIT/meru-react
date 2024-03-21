@@ -13,3 +13,12 @@ Run the application:
 
 yarn run dev
 With these steps, you should be able to run the front-end locally and start working on the development test for Meru!
+
+## Autenticación
+
+As basic authentication with the API requires a token, you need to create one. This is a straightforward process; make a call to the endpoint to the backend:
+
+POST
+/tokens
+
+Put the token value in the .env.local file
